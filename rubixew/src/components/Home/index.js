@@ -18,7 +18,7 @@ const cardsData = [
     bgColor: "#a12566",
     step: "02",
     description:
-      "  Gain awareness on Al and build an Interactive story around it",
+      "  Gain awareness on AI and build an Interactive story around it",
     logo: "https://png.pngitem.com/pimgs/s/197-1976786_ai-package-icon-blue-transparent-artificial-intelligence-logo.png",
   },
   {
