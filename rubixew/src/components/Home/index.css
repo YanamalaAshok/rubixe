@@ -1,0 +1,414 @@
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1547743052-3a5fec50cadf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px 20px;
+
+
+}
+
+
+.tech-teens-logo {
+    height: 200px;
+    width: auto;
+}
+
+.banner-description {
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 25px;
+    filter: none;
+
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url("https://images.unsplash.com/photo-1547743052-3a5fec50cadf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    height: 100%;
+    background-size: cover;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(1px);
+}
+
+.content {
+    position: absolute;
+    left: 140px;
+    bottom: 10px;
+    right: 0;
+    z-index: 9999;
+}
+
+.about-us-con {
+    display: flex;
+    padding: 10px 30px;
+
+    margin-top: 60px;
+    gap: 30px;
+    height: max-content;
+}
+
+.about-img {
+    height: 100%;
+    max-width: 600px;
+    width: auto;
+}
+
+.about-heading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-description {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.about-img-con {
+    position: relative;
+    margin-right: 20px;
+    height: 100%;
+}
+
+
+
+.img-border {
+    border-top: 8px solid palevioletred;
+    width: 60%;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.border-right {
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+}
+
+.born {
+    margin-top: 80px;
+    background-color: #a12566;
+    padding: 10px 30px;
+    color: white;
+}
+
+.des {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.tech-teens {
+    background-color: #e7ebea;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tech-teens-heading1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.teens-card {
+    height: 300px;
+    /* background-image: linear-gradient(to top, #f3f3f3, #f1ebeb, #f8eded, rgb(255, 255, 255)); */
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px #454545;
+    margin: 0;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.card-border {
+    height: 35px;
+    background-color: blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+}
+
+.card-step-number {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e0de;
+}
+
+
+.card-logo {
+    width: 40%;
+}
+
+.card-description {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cards-con {
+    display: flex;
+    gap: 0;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.teens-card:nth-child(odd) {
+    flex-direction: column-reverse !important;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    /* box-shadow: 0px 0px 0px #ffff; */
+}
+
+.teens-card:nth-child(odd)>.card-border {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+
+}
+
+.teens-card:hover {
+    scale: 1.05;
+    margin: 0 20px;
+
+}
+
+.teens-card:nth-child(odd)>.card-border>.card-step-number {
+    top: 0;
+}
+
+.get-in-touch-con {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    max-height: max-content;
+    width: 100%;
+
+}
+
+.contact-us {
+    border: 3px solid #c5c5c5;
+    width: 70%;
+    border-radius: 5px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.hr {
+
+    border-left: 5px solid #c5c5c5;
+    margin-right: 10px;
+
+}
+
+.input-con {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input-label {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.user-input {
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid #c5c5c5;
+    outline: none;
+    width: 100%;
+
+}
+
+.contact-info {
+    width: 30%;
+    align-self: center;
+    text-align: center;
+}
+
+.form-con {
+    width: 50%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.submit-btn {
+    background-color: #1e2e61;
+    color: white;
+    height: 40px;
+    letter-spacing: 1px;
+}
+
+.bg-light {
+    background-color: #f5f7f9 !important;
+}
+
+.pt50 {
+    padding-top: 50px;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.about-img-sm {
+    display: none;
+}
+
+@media screen and (max-width:742px) {
+    .about-us-con {
+        flex-direction: column;
+    }
+
+
+
+    .about-img {
+        max-width: 90vw;
+    }
+
+    .cards-con {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .teens-card:nth-child(odd) {
+        flex-direction: column !important;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+
+        /* box-shadow: 0px 0px 0px #ffff; */
+    }
+
+
+    .teens-card {
+        margin-top: 20px;
+    }
+
+    .teens-card:nth-child(odd)>.card-border {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+
+    }
+
+    .teens-card:nth-child(odd)>.card-border>.card-step-number {
+        bottom: 0 !important;
+        top: auto;
+    }
+
+    .contact-us {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 90%;
+    }
+
+    .c .hr {
+        width: 100%;
+    }
+
+    .form-con {
+        width: 90%;
+        margin: auto;
+    }
+
+    .content {
+        left: 20px;
+    }
+
+    .about-img-sm {
+        display: flex;
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .about-img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .img-border {
+        position: absolute;
+        top: -15px;
+        width: 60%;
+
+    }
+
+
+    .about-heading {
+
+        margin-bottom: 20px;
+    }
+
+    .about-img-md {
+        display: none;
+    }
+
+    .tech-teens {
+        padding: 10px 20px;
+    }
+
+    .tech-teens-logo {
+        height: 100px;
+    }
+}
+
+.err-msg {
+    border-color: red;
+}

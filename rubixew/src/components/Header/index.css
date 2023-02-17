@@ -1,0 +1,33 @@
+.logo {
+    height: 40px;
+}
+
+.link {
+    color: white;
+    text-transform: uppercase;
+    transition: 0.7s;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.link:hover {
+    scale: 1.2;
+
+    color: red !important;
+}
+
+.offcanvas {
+    background-color: black !important;
+}
+
+.btn-close {
+    background-color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://icon-library.com/images/white-menu-icon/white-menu-icon-9.jpg') !important;
+}
+
+.navbar-toggler {
+    border-color: white !important;
+}
