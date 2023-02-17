@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./index.css";
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -15,31 +16,28 @@ const ContactUs = () => {
     } else {
       setNameError(false);
     }
-
     if (mobile.length !== 10) {
       setMobileError(true);
     } else {
       setMobileError(false);
     }
 
-    setTimeout(() => {
-      if (!nameError && !mobileError) {
-        console.log("api call");
-        const obj = {
-          name,
-          mobile,
-          email,
-        };
-        // SET IT IN LOCAL STORAGE
+    if (name.length <= 30 && mobile.length === 10) {
+      console.log("api call");
+      const obj = {
+        name,
+        mobile,
+        email,
+      };
+      // SET IT IN LOCA;
+      // api call for stroing data
+      alert("thank u we will get in touch with u");
 
-        // api call for stroing data
-        alert("Thank you we will get in touch with you shortly");
-
-        setName("");
-        setmobile("");
-        setemail("");
-      }
-    }, 3000);
+      setName("");
+      setmobile("");
+      setemail("");
+      window.location = "/";
+    }
   };
 
   return (

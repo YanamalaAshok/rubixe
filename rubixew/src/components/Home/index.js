@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./index.css";
 import techTeensLogo from "../../assets/techTeensLogo.jpeg";
 import Footer from "../Footer";
+import ContactUs from "../ContactUs";
 
 const cardsData = [
   {
@@ -64,9 +65,7 @@ const Home = () => {
       await setMobileError(false);
     }
 
-    if (nameError || mobileError) {
-      return;
-    } else {
+    if (name.length <= 30 && mobile.length === 10) {
       console.log("api call");
       const obj = {
         name,
@@ -190,7 +189,7 @@ const Home = () => {
 
       {/* contact us */}
 
-      <div className="get-in-touch-con">
+      {/* <div className="get-in-touch-con">
         <div className="contact-us">
           <div className="contact-info">
             <h1>GET IN TOUCH</h1>
@@ -259,8 +258,8 @@ const Home = () => {
             </form>
           </div>
         </div>
-      </div>
-
+      </div> */}
+      <ContactUs />
       {/* footer */}
       <Footer />
     </div>
