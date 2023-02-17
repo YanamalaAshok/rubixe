@@ -31,7 +31,7 @@ const ContactUs = () => {
       };
       // SET IT IN LOCA;
       // api call for stroing data
-      alert("thank u we will get in touch with u");
+      alert("Thank you we will get in touch with you shortly...");
 
       setName("");
       setmobile("");
@@ -45,14 +45,14 @@ const ContactUs = () => {
       <div className="contact-us">
         <div className="contact-info">
           <h1>GET IN TOUCH</h1>
-          <p>please complete the form and we will get back to you soon</p>
+          <p>Please complete the form and we will get back to you soon</p>
         </div>
         <div className="hr"></div>
         <div className="form-con">
           <form className="contact-form" onSubmit={onSubmitForm}>
             <div className="input-con">
               <label for="name" className="input-label">
-                Name*
+                Name<span className="spa">*</span>
               </label>
               <input
                 type="text"
@@ -71,7 +71,7 @@ const ContactUs = () => {
             </div>
             <div className="input-con">
               <label for="email" className="input-label">
-                Email*
+                Email<span className="spa">*</span>
               </label>
               <input
                 className="user-input"
@@ -87,7 +87,7 @@ const ContactUs = () => {
             </div>
             <div className="input-con">
               <label for="Mobile" className="input-label">
-                Mobile*
+                Mobile<span className="spa">*</span>
               </label>
               <input
                 value={mobile}

@@ -90,16 +90,19 @@
 
 .heading {
     color: aqua !important;
+    text-decoration: underline;
 }
 
 @media (max-width: 600px) {
     .inner-con {
         flex-direction: column;
         align-items: center;
+
     }
 
     .section1 {
         align-items: start !important;
+        width: 80%;
     }
 
     .section2,
@@ -107,6 +110,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 80%;
     }
 
     .links {
