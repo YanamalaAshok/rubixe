@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rubixe/static/css/main.339b97d1.css",
+    "main.js": "/rubixe/static/js/main.a10b4158.js",
+    "static/js/787.7ec47bff.chunk.js": "/rubixe/static/js/787.7ec47bff.chunk.js",
+    "static/media/techTeensLogo.jpeg": "/rubixe/static/media/techTeensLogo.35f0f714d87f36410ec5.jpeg",
+    "index.html": "/rubixe/index.html",
+    "main.339b97d1.css.map": "/rubixe/static/css/main.339b97d1.css.map",
+    "main.a10b4158.js.map": "/rubixe/static/js/main.a10b4158.js.map",
+    "787.7ec47bff.chunk.js.map": "/rubixe/static/js/787.7ec47bff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.339b97d1.css",
+    "static/js/main.a10b4158.js"
+  ]
+}
